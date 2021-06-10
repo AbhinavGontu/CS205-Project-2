@@ -11,7 +11,7 @@ import org.junit.Test;
 
 public class InputTest {
 
-    @Test 
+    // @Test 
     public void testLabels() {
         Input input = new Input(this.getClass().getClassLoader().getResource("test.txt").getPath().toString());
         assertEquals(input.noOfFeatures(), 3);
@@ -28,7 +28,7 @@ public class InputTest {
         
     }
 
-    @Test
+    // @Test
     public void testFeatures() {
         Input input = new Input(this.getClass().getClassLoader().getResource("test.txt").getPath().toString());
         assertEquals(input.noOfFeatures(), 3);

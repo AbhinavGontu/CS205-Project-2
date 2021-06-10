@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class KnnComparatorTest {
 
-    @Test
+    // @Test
     public void testCompare() {
         Input input = new Input(this.getClass().getClassLoader().getResource("testCircle.txt").getPath().toString());
         ArrayList<ArrayList<BigDecimal>> features = input.getFeatures();
@@ -32,7 +32,7 @@ public class KnnComparatorTest {
         }
     }
 
-    @Test
+    // @Test
     public void testCompareIgnore() {
         Input input = new Input(this.getClass().getClassLoader().getResource("testCircle.txt").getPath().toString());
         ArrayList<ArrayList<BigDecimal>> features = input.getFeatures();
